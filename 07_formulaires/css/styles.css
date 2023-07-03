@@ -1,0 +1,293 @@
+body {
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     line-height: 1.6;
+     color: #222222;
+     background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none; /* ou underline, overline, etc. */
+}
+
+/* Style pour le conteneur principal */
+.main-content {
+     display: flex;
+     flex-direction: column; 
+     justify-content: center;
+     align-items: center;
+     margin-top: 70px;
+     padding: 30px;
+     background-color: #f5f5f5;
+     padding-top: 60px; /* Pour éviter que le contenu ne soit caché sous la barre de navigation */
+}
+
+form {
+     padding: 20px 40px 30px 20px; 
+     background-color: #ffffff;
+     border-radius: 8px;
+     box-shadow: 0px 0px 10px 0px #0000000f;
+}
+label {
+     font-weight: bold;
+     display: block;
+     margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 20px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+}
+input[type="submit"] {
+     padding: 10px 20px;
+     margin-bottom: 20px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     cursor: pointer;
+}
+input[type="submit"]:hover {
+     background-color: #45a049;
+}
+table {
+     width: 100%;
+     border-collapse: collapse;
+}
+th, td {
+     border: 1px solid #ddd;
+     padding: 8px;
+}
+th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: #4CAF50;
+     color: white;
+}
+tr:nth-child(even) {
+     background-color: #f2f2f2;
+}
+tr:hover {
+     background-color: #ddd;
+}
+
+.add-button {
+     margin-top: 20px;
+     align-items: end;
+     padding: 10px;
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     text-decoration: none;
+     display: inline-block;
+}
+.table-container {
+     width: 60%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: column;
+}
+
+.table-container .add-button {
+    align-self: flex-end;
+    margin-top: 1rem;
+}
+.table-container a {
+    text-decoration: none;
+}
+.fa-trash {
+    color: #FFF;
+    cursor: pointer;
+}
+.fa-user-pencil {
+    color: #FFF;
+    cursor: pointer;
+}
+
+.message {
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0px 0px 10px 0px #0000000f;
+}
+.error {
+     width: 20%;
+     color: #FF0000;
+     background-color: #FFDDDD;
+}
+.success {
+     color: #008000;
+     background-color: #DDFFDD;
+}
+.btn-back {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #008CBA;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-back:hover {
+    background-color: #007B9A;
+}
+
+/* Style pour la barre de navigation */
+.navbar {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     background-color: #333;
+     overflow: hidden;
+     z-index: 1;
+}
+
+/* Style pour les liens de la barre de navigation */
+.navbar a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+
+/* Changer la couleur des liens au survol */
+.navbar a:hover {
+     background-color: #ddd;
+     color: black;
+}
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center; /* Alignement vertical des éléments */
+}
+.navbar-right {
+     display: flex;
+     align-items: center; /* Alignement vertical des éléments */
+     gap: 10px;
+}
+.navbar-right span {
+     color: #fff;
+}
+
+/* lien action personnalisé */
+
+.action {
+     display: flex;
+     justify-content: space-between;
+}
+.update-button, .delete-button {
+     padding: 5px;
+     color: white;
+     text-decoration: none;
+     border-radius: 5px;
+}
+.update-button {
+     background-color: green;
+}
+
+.delete-button {
+     background-color: red;
+}
+
+
+/**** MEDIA QUERY */
+
+@media only screen and (max-width: 600px) {
+    /* Les styles ici s'appliqueront à tous les dispositifs dont la largeur d'écran est inférieure ou égale à 600px */
+
+     body {
+          font-size: 14px;
+     }
+     .main-content {
+          padding-top: 30px;
+          padding-left: 30px; /* Petit padding à gauche pour les petits écrans */
+          padding-right: 30px; /* Petit padding à droite pour les petits écrans */
+     }
+
+     form {
+          width: 100%;
+          border-radius: 0;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+     }
+
+     .message {
+          width: 100%;
+     }
+
+     .table-container {
+          width: 100%;
+     }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Les styles ici s'appliqueront à tous les dispositifs dont la largeur d'écran est comprise entre 601px et 1024px */
+
+     body {
+          font-size: 16px;
+     }
+     .main-content {
+          padding-top: 50px;
+          padding-left: 20px; /* Padding moyen à gauche pour les écrans intermédiaires */
+          padding-right: 20px; /* Padding moyen à droite pour les écrans intermédiaires */
+     }
+
+     form {
+          width: 70%;
+          border-radius: 0;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+     }
+
+     .message {
+          width: 70%;
+     }
+
+     .table-container {
+          width: 70%;
+     }
+}
+
+@media only screen and (min-width: 1025px) {
+    /* Les styles ici s'appliqueront à tous les dispositifs dont la largeur d'écran est supérieure ou égale à 1025px */
+
+     body {
+          font-size: 18px;
+     }
+     .main-content {
+          padding-top: 60px;
+          padding-left: 30px; /* Grand padding à gauche pour les grands écrans */
+          padding-right: 30px; /* Grand padding à droite pour les grands écrans */
+     }
+
+     form {
+          width: 20%;
+          border-radius: 0;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+     }
+
+     .message {
+          width: 390px;
+     }
+}
