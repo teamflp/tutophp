@@ -10,7 +10,7 @@ interface Vehicule {
 
 class Voiture implements Vehicule {
     public function vitesse_max() {
-        return 180;
+        return 180 . "<br>";
     }
 }
 

@@ -35,15 +35,18 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
      <?php require_once 'nav.php'; ?>
      <div class="main-content">
           <div class="table-container">
-               <a href="add.php" class="add-button"> <i class="fa-solid fa-user-plus"></i> Ajouter un membre</a>
-               <table>
+               <a href="add.php" class="add-button button"> 
+                    <i class="fa-solid fa-user-plus"></i> Ajouter un membre
+               </a>
+               <table style="margin-top: 10px">
                     <thead>
                          <tr>
                               <th>ID</th>
                               <th>Nom</th>
-                              <th>Email</th>
-                              <th>Date d'inscription</th>
-                              <th>Action</th>
+                              <th><i class="fa-regular fa-paper-plane"></i> Email</th>
+                              <th><i class="fa-regular fa-calendar-check"></i> Date d'inscription</th>
+                              <th><i class="fa-regular fa-clock"></i> Mis à jour le</th>
+                              <th></th>
                          </tr>
                     </thead>
                     <tbody>
@@ -54,7 +57,8 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                    <td>
                                         <a href="mailto:<?php echo $user['email']; ?>"><?php echo $user['email']; ?></a>
                                    </td>
-                                   <td><?php echo date("d-m-Y", strtotime($user['registration_date'])); ?></td>
+                                   <td><?php echo date("d-m-Y", strtotime($user['createdAt'])); ?></td>
+                                   <td><?php echo date("d-m-Y à H:m:i", strtotime($user['updatedAt'])); ?></td>
                                    <td class="action">
                                         <a class="update-button" href="update.php?id=<?php echo $user['id']; ?>"><i class="fa-solid fa-user-pen"></i> Edit</a>
                                         <a class="delete-button" href="delete.php?id=<?php echo $user['id']; ?>" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cet utilisateur?')">

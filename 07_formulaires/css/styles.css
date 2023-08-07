@@ -79,12 +79,12 @@ tr:hover {
 .add-button {
      margin-top: 20px;
      align-items: end;
-     padding: 10px;
+     padding: 5px;
      background-color: #4CAF50;
      color: white;
-     border: none;
      text-decoration: none;
      display: inline-block;
+     border-radius: 5px;
 }
 .table-container {
      width: 60%;
@@ -189,13 +189,13 @@ tr:hover {
      display: flex;
      justify-content: space-between;
 }
-.update-button, .delete-button {
+.button, .update-button, .delete-button {
      padding: 5px;
      color: white;
      text-decoration: none;
      border-radius: 5px;
 }
-.update-button {
+.update-button, .button {
      background-color: green;
 }
 

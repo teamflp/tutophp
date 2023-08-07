@@ -3,9 +3,6 @@
 global $conn;
 require_once '../08_mysql/connexion.php';
 
-// Navbar
-
-
 // Récupération de l'ID de l'utilisateur
 $id = $_GET['id'];
 

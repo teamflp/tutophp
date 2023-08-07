@@ -24,7 +24,7 @@ abstract class Animal {
 
 class Chien extends Animal {
     public function faireDuBruit() {
-        return "Woof! Woof!";
+        return "Woof! Woof!<br>";
     }
 }
 
@@ -39,3 +39,5 @@ echo $monChien->getNom() . " dit " . $monChien->faireDuBruit(); // Affiche "Spik
 
 $monChat = new Chat("Molly");
 echo $monChat->getNom() . " dit " . $monChat->faireDuBruit(); // Affiche "Molly dit Miaou! Miaou!"
+
+
