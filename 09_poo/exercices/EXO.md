@@ -22,3 +22,17 @@
 8) Vu la haute demande, les véhicules 2 et 7 sont en rupture de stock dont disponibilité = non
 9) Affichez le nombre de tous les véhicules disponibles
 10) Affichez le prix total de tous les véhicules disponibles
+
+## Correction
+
+<div style="display: inline-block;">
+    <a href="https://github.com/teamflp/tutophp/blob/main/09_poo/exercices/VEHICULE.md">
+        <img src="https://img.shields.io/badge/Classe-Vehicule-green" alt="Bouton Classe Vehicule"/>
+    </a>
+</div>
+<div style="display: inline-block;">
+    <a href="https://github.com/teamflp/tutophp/blob/main/09_poo/exercices/index.php">
+        <img src="https://img.shields.io/badge/Fichier-index.php-green" alt="Bouton Fichier index.php"/>
+    </a>
+</div>
+
