@@ -1,0 +1,24 @@
+Créer une class Vehicule qui aura pour propriété:
+  - marque
+  - couleur
+  - annee  #ff6aa00
+  - prix
+  - roues
+  - disponible
+
+Ces proppriétés seront public.
+------------------------------------------------------------------------------------------
+- initialiser les variables dans un constructeur
+- Créer les méthodes getters et setters
+- créer 10 objets. De base, tous les véhicules ont des valeurs et sont disponibles (Oui)  
+- afficher ces objets dans la page index.php dans une table html ayant pour entête:
+  - Marque  Couleur   Année  Prix  Disponible  Roues
+
+- Afficher le nombre de tous les véhicules
+------------------------------------------------------------------------------------------
+- Modifier le prix et couleur du véhicule 4 et 6 sans modifier leurs valeurs de base.
+- Vu la haute demande, les véhicules 2 et 7 sont en rupture de stock dont disponibilité = non
+
+- Afficher le nombre de tous les véhicules disponibles
+- Afficher le prix totale de tous les véhicules disponibles
+------------------------------------------------------------------------------------------
