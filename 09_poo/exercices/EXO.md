@@ -26,16 +26,12 @@
 ## Correction
 
 <div style="display: flex; justify-content: space-between; width: fit-content; gap: 5%">
-    <div style="margin-right: 20px;">
-        <a href="https://github.com/teamflp/tutophp/blob/main/09_poo/exercices/VEHICULE.md">
-            <img src="https://img.shields.io/badge/Classe-Vehicule-green" alt="Bouton Classe Vehicule"/>
-        </a>
-    </div>
-    <div>
-        <a href="https://github.com/teamflp/tutophp/blob/main/09_poo/exercices/index.php">
-            <img src="https://img.shields.io/badge/Fichier-index.php-green" alt="Bouton Fichier index.php"/>
-        </a>
-    </div>
+    <a href="https://github.com/teamflp/tutophp/blob/main/09_poo/exercices/VEHICULE.md">
+        <img src="https://img.shields.io/badge/Classe-Vehicule-green" alt="Bouton Classe Vehicule"/>
+    </a>
+    <a href="https://github.com/teamflp/tutophp/blob/main/09_poo/exercices/index.php">
+        <img src="https://img.shields.io/badge/Fichier-index.php-green" alt="Bouton Fichier index.php"/>
+    </a>
 </div>
 
 
