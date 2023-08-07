@@ -2,7 +2,7 @@
 1) Créer une class Vehicule qui aura pour propriété:
   - marque
   - couleur
-  - annee  #ff6aa00
+  - annee
   - prix
   - roues
   - disponible
