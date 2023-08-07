@@ -25,12 +25,10 @@
 
 ## Correction
 
-<div style="display: inline-block;">
+<div style="display: inline-flex;">
     <a href="https://github.com/teamflp/tutophp/blob/main/09_poo/exercices/VEHICULE.md">
         <img src="https://img.shields.io/badge/Classe-Vehicule-green" alt="Bouton Classe Vehicule"/>
     </a>
-</div>
-<div style="display: inline-block;">
     <a href="https://github.com/teamflp/tutophp/blob/main/09_poo/exercices/index.php">
         <img src="https://img.shields.io/badge/Fichier-index.php-green" alt="Bouton Fichier index.php"/>
     </a>
