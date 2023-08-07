@@ -25,7 +25,7 @@
 
 ## Correction
 
-<div style="display: inline-flex;">
+<div style="display: flex;">
     <a href="https://github.com/teamflp/tutophp/blob/main/09_poo/exercices/VEHICULE.md">
         <img src="https://img.shields.io/badge/Classe-Vehicule-green" alt="Bouton Classe Vehicule"/>
     </a>
