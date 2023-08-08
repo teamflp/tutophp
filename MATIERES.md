@@ -1,7 +1,7 @@
 ## Table des matières
 
 <div style="display: flex; justify-content: space-between; width: fit-content; gap: 5%">
-    <a href="https://github.com/teamflp/tutophp/blob/main/MATIERES.md">
+    <a href="https://github.com/teamflp/tutophp/blob/main/apprendre-php.pdf">
         <img src="https://img.shields.io/badge/Télécharger le-support-green" alt="Support apprendre PHP"/>
     </a>
 </div>
