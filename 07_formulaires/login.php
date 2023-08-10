@@ -10,7 +10,7 @@ if (isset($_SESSION['user'])) {
 }
 
 // Inclure le fichier de connexion
-require_once '../08_mysql/connexion.php';
+require_once '../09_mysql/connexion.php';
 
 // Initialisation du message d'erreur
 $errorMessage = "";

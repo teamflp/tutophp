@@ -1,6 +1,6 @@
 <?php
 // Inclure le fichier de connexion
-require_once '../08_mysql/connexion.php';
+require_once '../09_mysql/connexion.php';
 
 // Démarrer la session
 session_start();

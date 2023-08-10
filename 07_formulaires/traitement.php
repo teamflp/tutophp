@@ -11,7 +11,7 @@
      <div class="main-content">
           <?php
           // Inclure le fichier de connexion
-          require_once '../08_mysql/connexion.php';
+          require_once '../09_mysql/connexion.php';
 
           // Récupération des données du formulaire
           $nom = isset($_POST['nom']) ? $_POST['nom'] : '';
