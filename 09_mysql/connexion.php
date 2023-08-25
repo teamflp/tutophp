@@ -4,7 +4,7 @@
 $servername = "localhost"; // adresse du serveur
 $dbname = "tuto_php"; // nom de la base de données
 $username = "root"; // nom d'utilisateur pour se connecter à la base de données
-$password = "Mardochee2008"; // mot de passe de l'utilisateur
+$password = ""; // mot de passe de l'utilisateur
 
 try {
     // Tentative d'établir la connexion
